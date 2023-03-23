@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f76c5b72962abfa40a088b883c588a23, type: 3}
+  m_Name: NewDialogSequence
+  m_EditorClassIdentifier: 
+  dialogs:
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 21300000, guid: 20064e1bbb1509947889022e6a1562d7, type: 3}
+      lines:
+      - Hmm...
+      - My friends said they'd be here. Did they leave without me?
+      zIndex: 0
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 3849040209e2e7d49b10793d2c1c712e, type: 3}
+      lines:
+      - Surprise! I was hiding in the sand hehe..
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 21300000, guid: d34144fbdd786714b999ac42a3b5df4f, type: 3}
+      lines: []
+      zIndex: 1
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 3849040209e2e7d49b10793d2c1c712e, type: 3}
+      lines: []
+      zIndex: 1
+    CenterCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 21300000, guid: d34144fbdd786714b999ac42a3b5df4f, type: 3}
+      lines:
+      - Nice try buddy.. I've got nerves of steel.
+      zIndex: 0
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 0e0c4c5e11fa75041aacbd096db17832, type: 3}
+      lines:
+      - You're no fun.. Btw, where's Bear? Wasn't she coming with you?
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 21300000, guid: d34144fbdd786714b999ac42a3b5df4f, type: 3}
+      lines: []
+      zIndex: 1
+  - isTransition: 1
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 0e0c4c5e11fa75041aacbd096db17832, type: 3}
+      lines: []
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 0}
+      lines: []
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 21300000, guid: d34144fbdd786714b999ac42a3b5df4f, type: 3}
+      lines: []
+      zIndex: 1
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 0e0c4c5e11fa75041aacbd096db17832, type: 3}
+      lines: []
+      zIndex: 2
+    CenterCharacter:
+      image: {fileID: 21300000, guid: 127fdacbf3086274f8663dff60cfea66, type: 3}
+      lines:
+      - NO WAY!
+      - THIS NEW APP ALLOWS YOU TO TELEPORT ANYWHERE YOU WANT!
+      zIndex: 0
+    RightCharacter:
+      image: {fileID: 21300000, guid: d34144fbdd786714b999ac42a3b5df4f, type: 3}
+      lines: []
+      zIndex: 1
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 3849040209e2e7d49b10793d2c1c712e, type: 3}
+      lines: []
+      zIndex: 2
+    CenterCharacter:
+      image: {fileID: 21300000, guid: 3262b980555fa644cb686098f00ad432, type: 3}
+      lines: []
+      zIndex: 1
+    RightCharacter:
+      image: {fileID: 21300000, guid: 4931be2b00be53c4bb073dc03fb81632, type: 3}
+      lines:
+      - LET'S USE IT TO GO TO THE MALL!
+      zIndex: 0
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: fb2176a42fecb7749a5c89f8b9bd95b9, type: 3}
+      lines:
+      - Nah, I say let's use it to head to the surf shop..
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 21300000, guid: 3262b980555fa644cb686098f00ad432, type: 3}
+      lines: []
+      zIndex: 1
+    RightCharacter:
+      image: {fileID: 21300000, guid: 20064e1bbb1509947889022e6a1562d7, type: 3}
+      lines: []
+      zIndex: 2
+  - isTransition: 0
+    LeftCharacter:
+      image: {fileID: 21300000, guid: 3849040209e2e7d49b10793d2c1c712e, type: 3}
+      lines: []
+      zIndex: 0
+    CenterCharacter:
+      image: {fileID: 21300000, guid: c22498402017bce4badfbcb3640c4d00, type: 3}
+      lines:
+      - How about we enjoy our time here at the beach.
+      zIndex: 2
+    RightCharacter:
+      image: {fileID: 21300000, guid: 20064e1bbb1509947889022e6a1562d7, type: 3}
+      lines: []
+      zIndex: 1
