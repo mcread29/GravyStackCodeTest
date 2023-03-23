@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.Intrinsics;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,6 +11,7 @@ public class Character
     public Sprite image;
     public string[] lines;
     public int zIndex;
+    public Vector2 offset;
 }
 
 [System.Serializable]

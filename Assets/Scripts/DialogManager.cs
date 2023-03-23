@@ -22,11 +22,11 @@ public class DialogManager : MonoBehaviour
 
     public void AdvanceDialog()
     {
+        m_dialogIndex++;
         if (m_dialogIndex < m_sequence.dialogs.Length)
         {
-            m_dialogIndex++;
+            Debug.Log(m_dialogIndex + ", " + m_sequence.dialogs.Length);
             presentDialog();
-            Debug.Log(m_dialogIndex);
         }
     }
 
