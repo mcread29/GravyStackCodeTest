@@ -5,15 +5,21 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Data for the individual characters
 [System.Serializable]
 public class Character
 {
+    // image to use for a specific dialog
     public Sprite image;
+    // the lines the character should say
     public string[] lines;
+    // the sort order for the character
     public int zIndex;
+    // the x/y offset for a specific dialog
     public Vector2 offset;
 }
 
+// One dialog for 3 characters
 [System.Serializable]
 public struct CharacterDialog
 {
@@ -23,6 +29,7 @@ public struct CharacterDialog
     public Character RightCharacter;
 }
 
+// Scriptable object to define a specific sequence of dialogs
 public class DialogSequence : ScriptableObject
 {
     public CharacterDialog[] dialogs;
